@@ -1,0 +1,20 @@
+{
+  "name": "docappoint-server",
+  "version": "1.0.0",
+  "description": "DocAppoint - Doctor Appointment Manager API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "better-auth": "^1.2.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.3"
+  }
+}
