@@ -1,5 +1,5 @@
 {
-  "name": "docappoint-server",
+  "name": "docappoint-backend",
   "version": "1.0.0",
   "description": "DocAppoint - Doctor Appointment Manager API",
   "main": "index.js",
